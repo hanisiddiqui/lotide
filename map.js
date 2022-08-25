@@ -2,7 +2,6 @@ const map = (array, callback) => {
   const results = [];
   for (let item of array) {
     results.push(callback(item));
-    console.log(callback(item));
   }
   return results;
 };
