@@ -34,3 +34,6 @@ const words2 = ["ground", 1234567, "to", "major", "tom"];
 assertArraysEqual(map(words, firstLetter), ['g','c','t','m','t']);
 assertArraysEqual(map(words1, firstLetter), ['G','1','t','m','t']);
 assertArraysEqual(map(words2, firstLetter), ['g',1,'t','m','t']);
+
+
+module.exports = map;

@@ -36,4 +36,6 @@ const assertArraysEqual = function (array1, array2) {
   }
 };
 
+module.exports = indexPositions;
+
 assertArraysEqual(indexPositions('hello').e, [1]);
